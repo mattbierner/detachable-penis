@@ -37,7 +37,66 @@ public class EroNodeColorScheme {
             hexStringToUIColor(hexString: "fd8a5e"),
             hexStringToUIColor(hexString: "ff598f")
         ],
-        
+        [ // Cyan, pink, puple
+            hexStringToUIColor(hexString: "2de2e6"),
+            hexStringToUIColor(hexString: "f6019d"),
+            hexStringToUIColor(hexString: "9700cc")
+        ],
+        [ // USA
+            hexStringToUIColor(hexString: "fbfbfb"),
+            hexStringToUIColor(hexString: "0447fd"),
+            hexStringToUIColor(hexString: "ff0000")
+        ],
+        [ // pinks
+            hexStringToUIColor(hexString: "ff0081"),
+            hexStringToUIColor(hexString: "ff59a4"),
+            hexStringToUIColor(hexString: "ffabcd")
+        ],
+        [ // Faded summer
+            hexStringToUIColor(hexString: "fe8a9a"),
+            hexStringToUIColor(hexString: "f7c884"),
+            hexStringToUIColor(hexString: "55bcbb")
+        ],
+        [ // vibrant sunset
+            hexStringToUIColor(hexString: "ffd319"),
+            hexStringToUIColor(hexString: "ff2975"),
+            hexStringToUIColor(hexString: "b000ff")
+        ],
+        [ // Beach
+            hexStringToUIColor(hexString: "51eaea"),
+            hexStringToUIColor(hexString: "fffde1"),
+            hexStringToUIColor(hexString: "fb3569")
+        ],
+        [ // Candy
+            hexStringToUIColor(hexString: "b1e8ed"),
+            hexStringToUIColor(hexString: "edb5f5"),
+            hexStringToUIColor(hexString: "e86ed0")
+        ],
+        [ // pastel
+            hexStringToUIColor(hexString: "f0f69f"),
+            hexStringToUIColor(hexString: "b0e0a8"),
+            hexStringToUIColor(hexString: "d8eff0")
+        ],
+        [ // 60s
+            hexStringToUIColor(hexString: "f59aa3"),
+            hexStringToUIColor(hexString: "f5e4c3"),
+            hexStringToUIColor(hexString: "34a7b2")
+        ],
+        [ // forest
+            hexStringToUIColor(hexString: "217756"),
+            hexStringToUIColor(hexString: "63b75d"),
+            hexStringToUIColor(hexString: "b0d553")
+        ],
+        [ // dark
+            hexStringToUIColor(hexString: "313131"),
+            hexStringToUIColor(hexString: "414141"),
+            hexStringToUIColor(hexString: "515151")
+        ],
+        [ // lake
+            hexStringToUIColor(hexString: "d4ffa3"),
+            hexStringToUIColor(hexString: "00d8b1"),
+            hexStringToUIColor(hexString: "1f9ec7")
+        ],
     ]
 
     public let headColor: UIColor
