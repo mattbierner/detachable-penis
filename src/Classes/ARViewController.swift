@@ -62,10 +62,10 @@ public class ARViewController: UIViewController, CBCentralManagerDelegate, CBPer
         slider.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
         slider.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
         slider.minimumValue = 1
-        slider.maximumValue = 40
-        slider.value = 10
+        slider.maximumValue = Float(MAX_SCALE_FACTOR)
+        slider.value = Float(INITIAL_SCALE_FACTOR)
         slider.addTarget(self, action: #selector(sliderDidChange), for: .valueChanged)
-        sceneView.setScaleFactor(scaleFactor: 10)
+        sceneView.setScaleFactor(scaleFactor: INITIAL_SCALE_FACTOR)
 
         // Mode button
         changeModeButton.addTarget(self, action: #selector(pressModeButton), for: .touchUpInside)
@@ -113,10 +113,11 @@ public class ARViewController: UIViewController, CBCentralManagerDelegate, CBPer
             return
             
         case .Placing:
+            slider.value = Float(INITIAL_SCALE_FACTOR)
+            sceneView.setScaleFactor(scaleFactor: INITIAL_SCALE_FACTOR)
             slider.isHidden = false
-            changeModeButton.setTitle("Done", for: UIControl.State.normal)
+            changeModeButton.setTitle("Cancel", for: UIControl.State.normal)
             sceneView.setPlacing(isPlacing: true)
-
             return
         }
     }
