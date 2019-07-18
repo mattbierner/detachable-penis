@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892538A122DD998F0024F576 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892538A022DD998F0024F576 /* ListViewController.swift */; };
+		892538A322DDA1640024F576 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892538A222DDA1640024F576 /* State.swift */; };
+		896D0B1B22E0203100BCEFB8 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896D0B1A22E0203100BCEFB8 /* config.swift */; };
+		89BA0CFF22D9B80600FEB335 /* scene.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BA0CFE22D9B80600FEB335 /* scene.scnassets */; };
+		89BA0D1D22DD7C0C00FEB335 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA0D1C22DD7C0C00FEB335 /* Math.swift */; };
+		89FCA5EA22CC934100A8E320 /* LovenseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA5E822CC934100A8E320 /* LovenseController.m */; };
+		89FCA60222D5B0AF00A8E320 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA60122D5B0AF00A8E320 /* SCNVector3Extensions.swift */; };
+		89FCA60422D86CF100A8E320 /* EroSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA60322D86CF100A8E320 /* EroSceneView.swift */; };
+		A76557202201B50B00C7627C /* HandDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A765571F2201B50B00C7627C /* HandDetector.swift */; };
+		A76557222202001100C7627C /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76557212202001100C7627C /* PlaneNode.swift */; };
+		A76557242202F0DA00C7627C /* EroNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76557232202F0DA00C7627C /* EroNode.swift */; };
+		A7655726220330FC00C7627C /* SpotlightNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7655725220330FC00C7627C /* SpotlightNode.swift */; };
+		A76557282203458B00C7627C /* CVPixelBuffer+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76557272203458B00C7627C /* CVPixelBuffer+Search.swift */; };
+		A7A9EF4621F9F77E00604D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9EF4521F9F77E00604D4F /* AppDelegate.swift */; };
+		A7A9EF5221F9F78200604D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A9EF5021F9F78200604D4F /* LaunchScreen.storyboard */; };
+		A7A9EF6021FA05FE00604D4F /* HandModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A7A9EF5F21FA05FE00604D4F /* HandModel.mlmodel */; };
+		A7A9EF6721FF513800604D4F /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9EF6621FF513800604D4F /* ARViewController.swift */; };
+		A7CF0802221D8A6E00D0B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A9EF5A21F9FB5500604D4F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		892538A022DD998F0024F576 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		892538A222DDA1640024F576 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		896D0B1A22E0203100BCEFB8 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		89BA0CFE22D9B80600FEB335 /* scene.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = scene.scnassets; sourceTree = "<group>"; };
+		89BA0D1C22DD7C0C00FEB335 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		89FCA5E722CC934000A8E320 /* ARML-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARML-Bridging-Header.h"; sourceTree = "<group>"; };
+		89FCA5E822CC934100A8E320 /* LovenseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LovenseController.m; sourceTree = "<group>"; };
+		89FCA5E922CC934100A8E320 /* LovenseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LovenseController.h; sourceTree = "<group>"; };
+		89FCA60122D5B0AF00A8E320 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		89FCA60322D86CF100A8E320 /* EroSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EroSceneView.swift; sourceTree = "<group>"; };
+		A765571F2201B50B00C7627C /* HandDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDetector.swift; sourceTree = "<group>"; };
+		A76557212202001100C7627C /* PlaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
+		A76557232202F0DA00C7627C /* EroNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EroNode.swift; sourceTree = "<group>"; };
+		A7655725220330FC00C7627C /* SpotlightNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightNode.swift; sourceTree = "<group>"; };
+		A76557272203458B00C7627C /* CVPixelBuffer+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Search.swift"; sourceTree = "<group>"; };
+		A7A9EF4221F9F77E00604D4F /* Detachable Penis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detachable Penis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9EF4521F9F77E00604D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A9EF5121F9F78200604D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7A9EF5321F9F78200604D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A9EF5A21F9FB5500604D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A9EF5F21FA05FE00604D4F /* HandModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandModel.mlmodel; sourceTree = "<group>"; };
+		A7A9EF6621FF513800604D4F /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A9EF3F21F9F77E00604D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89BA0D2022DD943A00FEB335 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				89FCA60322D86CF100A8E320 /* EroSceneView.swift */,
+				A76557212202001100C7627C /* PlaneNode.swift */,
+				A76557232202F0DA00C7627C /* EroNode.swift */,
+				A7655725220330FC00C7627C /* SpotlightNode.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		A7A9EF3921F9F77E00604D4F = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF4421F9F77E00604D4F /* src */,
+				A7A9EF5D21F9FB9100604D4F /* Supporting Files */,
+				A7A9EF4321F9F77E00604D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A9EF4321F9F77E00604D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF4221F9F77E00604D4F /* Detachable Penis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A9EF4421F9F77E00604D4F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF4521F9F77E00604D4F /* AppDelegate.swift */,
+				A7A9EF5B21F9FB7800604D4F /* Classes */,
+				A7A9EF5921F9FB4500604D4F /* Ressources */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7A9EF5921F9FB4500604D4F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF5E21FA05FE00604D4F /* CoreML */,
+				A7A9EF5021F9F78200604D4F /* LaunchScreen.storyboard */,
+				A7A9EF5A21F9FB5500604D4F /* Assets.xcassets */,
+				89BA0CFE22D9B80600FEB335 /* scene.scnassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		A7A9EF5B21F9FB7800604D4F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89BA0D2022DD943A00FEB335 /* AR */,
+				89FCA5E922CC934100A8E320 /* LovenseController.h */,
+				896D0B1A22E0203100BCEFB8 /* config.swift */,
+				89FCA5E822CC934100A8E320 /* LovenseController.m */,
+				89FCA5E722CC934000A8E320 /* ARML-Bridging-Header.h */,
+				A7A9EF6121FA0F8500604D4F /* Helpers */,
+				A7A9EF6621FF513800604D4F /* ARViewController.swift */,
+				892538A022DD998F0024F576 /* ListViewController.swift */,
+				A765571F2201B50B00C7627C /* HandDetector.swift */,
+				892538A222DDA1640024F576 /* State.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7A9EF5D21F9FB9100604D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF5321F9F78200604D4F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7A9EF5E21FA05FE00604D4F /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9EF5F21FA05FE00604D4F /* HandModel.mlmodel */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		A7A9EF6121FA0F8500604D4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				89FCA60122D5B0AF00A8E320 /* SCNVector3Extensions.swift */,
+				A76557272203458B00C7627C /* CVPixelBuffer+Search.swift */,
+				89BA0D1C22DD7C0C00FEB335 /* Math.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A9EF4121F9F77E00604D4F /* Detachable Penis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A9EF5621F9F78200604D4F /* Build configuration list for PBXNativeTarget "Detachable Penis" */;
+			buildPhases = (
+				A7A9EF3E21F9F77E00604D4F /* Sources */,
+				A7A9EF3F21F9F77E00604D4F /* Frameworks */,
+				A7A9EF4021F9F77E00604D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detachable Penis";
+			productName = ARML;
+			productReference = A7A9EF4221F9F77E00604D4F /* Detachable Penis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A9EF3A21F9F77E00604D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = viseo;
+				TargetAttributes = {
+					A7A9EF4121F9F77E00604D4F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = A7A9EF3D21F9F77E00604D4F /* Build configuration list for PBXProject "DetachablePenis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A9EF3921F9F77E00604D4F;
+			productRefGroup = A7A9EF4321F9F77E00604D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A9EF4121F9F77E00604D4F /* Detachable Penis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A9EF4021F9F77E00604D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CF0802221D8A6E00D0B3F8 /* Assets.xcassets in Resources */,
+				A7A9EF5221F9F78200604D4F /* LaunchScreen.storyboard in Resources */,
+				89BA0CFF22D9B80600FEB335 /* scene.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A9EF3E21F9F77E00604D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7655726220330FC00C7627C /* SpotlightNode.swift in Sources */,
+				A76557222202001100C7627C /* PlaneNode.swift in Sources */,
+				A7A9EF6021FA05FE00604D4F /* HandModel.mlmodel in Sources */,
+				896D0B1B22E0203100BCEFB8 /* config.swift in Sources */,
+				A76557242202F0DA00C7627C /* EroNode.swift in Sources */,
+				89FCA5EA22CC934100A8E320 /* LovenseController.m in Sources */,
+				892538A322DDA1640024F576 /* State.swift in Sources */,
+				892538A122DD998F0024F576 /* ListViewController.swift in Sources */,
+				A7A9EF6721FF513800604D4F /* ARViewController.swift in Sources */,
+				A7A9EF4621F9F77E00604D4F /* AppDelegate.swift in Sources */,
+				89FCA60222D5B0AF00A8E320 /* SCNVector3Extensions.swift in Sources */,
+				A76557202201B50B00C7627C /* HandDetector.swift in Sources */,
+				A76557282203458B00C7627C /* CVPixelBuffer+Search.swift in Sources */,
+				89FCA60422D86CF100A8E320 /* EroSceneView.swift in Sources */,
+				89BA0D1D22DD7C0C00FEB335 /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A9EF5021F9F78200604D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A9EF5121F9F78200604D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A9EF5421F9F78200604D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A9EF5521F9F78200604D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A9EF5721F9F78200604D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM8U5NPN89;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattbierner.detachablepenis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "src/Classes/ARML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7A9EF5821F9F78200604D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM8U5NPN89;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattbierner.detachablepenis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "src/Classes/ARML-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A9EF3D21F9F77E00604D4F /* Build configuration list for PBXProject "DetachablePenis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9EF5421F9F78200604D4F /* Debug */,
+				A7A9EF5521F9F78200604D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A9EF5621F9F78200604D4F /* Build configuration list for PBXNativeTarget "Detachable Penis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9EF5721F9F78200604D4F /* Debug */,
+				A7A9EF5821F9F78200604D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A9EF3A21F9F77E00604D4F /* Project object */;
+}
